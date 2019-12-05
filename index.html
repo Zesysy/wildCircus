@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wild Circus</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Wild Circus</h1>
+      </div>
+      <div id="affiche"></div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="premiere">
+      <h2 id="performances">Performances</h2>
+      <ul>
+        <li>
+          <h3>Laugh</h3>
+          <p>
+            As an adult, come and discover our irresistible clowns, between
+            practical jokes and pranks let yourself be carried away by their joy
+            and fall back into childhood.
+          </p>
+        </li>
+        <li>
+          <h3>Dream</h3>
+          <p>
+            Let yourself be carried away in a world where the real and the
+            imaginary are one, in the company of our talented magicians,
+            discover a wonderful world limited only by your imagination.
+          </p>
+        </li>
+        <li>
+          <h3>Marvel at</h3>
+          <p>
+            Tame the untameable in the company of our tamers, between roar and
+            razor-sharp claws, watch these fierce felines turn into sweet
+            kittens.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="deuxieme">
+      <h2 id="about">About Us</h2>
+      <div id="lisere_texte">
+        <div id="lisere"></div>
+        <div id="texte">
+          <h3>History</h3>
+          <p>
+            Originating from the Galapagos Islands, we are the last vestiges of
+            a small local tribe.<br />
+            In 1874, the colonists invaded us and decided to found a circus in
+            front of our sense of the show (and especially because they found us
+            too cute). Since then, we travel the world with our troop to share
+            with all our numbers, and make the pleasure of young and old..
+          </p>
+          <h3>Troop</h3>
+          <p>
+            <em>Jugglers:</em> Triplet brothers who work in total symbiosis,
+            they haven't equal in the world of juggling. Swords with fiery
+            spears... Nothing is too dangerous for them when it comes to
+            marveling at you.<br />
+            <em>Trapezists:</em> A great sexy and a little fat for an unusual
+            duo. Their jumps will delight you and make you shudder with fear<br />
+            <em>Animals:</em> A couple of tigers, giraphes, ostriches, but we
+            don't have unicorns sorry ...<br />
+            <em>Mr Loyal:</em> The leader of the troop.
+          </p>
+          <h3>Show</h3>
+          <p>
+            It is obvious that our show is spectacular, but we can't tell you
+            more that it will spoil the surprise!
+          </p>
+        </div>
+        <div id="lisereb"></div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2 id="prices">Prices</h2>
+      <div id="troisieme">
+        <img
+          src="https://i.pinimg.com/originals/dd/a9/32/dda9327b430840c2c106a59aeefbdddb.png"
+          title="Image Not Contractual"
+          height="150"
+          width="280"
+          alt="ticket"
+        />
+        <table>
+          <caption>
+            Price of a ticket
+          </caption>
+          <thead>
+            <tr>
+              <th>Period \ Category</th>
+              <th>Adult</th>
+              <th>Children under 12 years</th>
+              <th>Groups (more than 10 people)</th>
+              <th>School</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Week of Wednesday</th>
+              <td>8£</td>
+              <td>5£</td>
+              <td>6£/personn</td>
+              <td>3,5£/children</td>
+            </tr>
+            <tr>
+              <th>Weekend and Wednesday</th>
+              <td>10£</td>
+              <td>6£</td>
+              <td>7£/person</td>
+              <td>4£/children</td>
+            </tr>
+          </tbody>
+        </table>
+        <img
+          src="https://i.pinimg.com/originals/dd/a9/32/dda9327b430840c2c106a59aeefbdddb.png"
+          title="Image Not Contractual"
+          height="150"
+          width="280"
+          alt="ticket"
+        />
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2 id="contact">Contact Us</h2>
+      <div id="quatrieme">
+        <figure>
+          <p>
+            “The circus is a piece of the world, where everyone is doing
+            theirs."<br />
+            Remy Donnadieu
+          </p>
+        </figure>
+        <form method="post" action="traitement.php">
+          <p id="pour">
+            <label id="to" for="recipient">To:</label>
+            <select name="recipient" id="recipient">
+              <option value="claims">Claims</option>
+              <option value="view">View</option>
+              <option value="tigers">Tigers</option>
+              <option value="question">A question</option>
+            </select>
+          </p>
+          <p id="of">
+            <label>Of:</label>
+            <input type="email" value="Your Mail" required />
+          </p>
+          <p id="question">
+            <label for="message">Message:</label><br />
+            <textarea name="message" id="message" rows="10" cols="30">
+Type your text here.
+            </textarea>
+          </p>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Wild Circus by MANUSSET Sylène - France-IOI:
+        <a href="http://www.france-ioi.org/user/perso.php?sLogin=sylene"
+          >Profil IOI</a
+        >
+        - SoloLearn:
+        <a href="https://www.sololearn.com/Profile/12309695"
+          >Profil SoloLearn</a
+        >
+        - Wild Code School:
+        <a href="https://wildcodeschool.fr">Wild Code School's site</a> -
+        Realized on the 01/17/2019
+      </p>
+    </footer>
+  </body>
+</html>

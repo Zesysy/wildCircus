@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+@import url("https://fonts.googleapis.com/css?family=Coiny");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://st2.depositphotos.com/1573506/9829/v/950/depositphotos_98290074-stock-illustration-vintage-grunge-circus-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Slabo 27px", Verdana, serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: DarkRed;
+  text-align: justify;
+  text-shadow: 1px 1px 1px LightPink;
+}
+
+header {
+  margin-top: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(51, 60, 140);
+}
+
+header a:hover {
+  color: black;
+}
+
+header ul {
+  font-family: "Amatic SC", Verdana, serif;
+  font-weight: bold;
+  font-size: 2.8em;
+  text-shadow: 1px 4px 4px AntiqueWhite;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgba(166, 151, 138, 0.7);
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px LightSlateGray;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC", Verdana, serif;
+  color: rgb(169, 14, 21);
+}
+
+h1 {
+  background: url("https://c8.alamy.com/compfr/m0f4d3/carnival-modele-daffiche-theme-du-cirque-vintage-for-kids-birthday-party-invitation-ou-par-la-poste-illustration-vecteur-de-qualite-m0f4d3.jpg")
+    no-repeat;
+  background-size: all;
+  height: 350px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #1c1a19;
+  font-size: 10em;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 6px 6px maroon;
+  line-height: 390px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 3px 3px 2px DarkSeaGreen;
+}
+
+h3 {
+  font-size: 2.6em;
+}
+
+#premiere h3 {
+  text-align: center;
+  color: Lavender;
+  text-shadow: 3px 4px 7px DimGray;
+}
+
+section ul {
+  display: flex;
+  list-style-type: none;
+  background-image: url("https://img3.stockfresh.com/files/p/pashabo/m/56/163810_stock-photo-vintage-retro-circus-background-isolated-on-white.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: -4px -3px 15px black;
+  margin: 20px 90px 30px 90px;
+}
+
+section li {
+  width: all;
+  margin: 5px 25px 25px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+section li p {
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+#deuxieme h3 {
+  margin-left: 180px;
+  font-size: 3em;
+  color: Maroon;
+  text-shadow: 1px 2px 1px Black;
+  text-transform: uppercase;
+}
+
+#lisere_texte {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#lisere {
+  background-image: url("https://previews.123rf.com/images/snapgalleria/snapgalleria1704/snapgalleria170400042/76844063-easy-to-edit-vector-illustration-of-vintage-retro-circus-party-banner-poster-design.jpg");
+  background-size: cover;
+  background-position: -0px -0px;
+  margin-left: 80px;
+  border-radius: 4px;
+  height: 600px;
+  width: 350px;
+}
+
+#lisereb {
+  background-image: url("https://previews.123rf.com/images/snapgalleria/snapgalleria1704/snapgalleria170400042/76844063-easy-to-edit-vector-illustration-of-vintage-retro-circus-party-banner-poster-design.jpg");
+  background-size: cover;
+  background-position: 190px -0px;
+  margin-right: 80px;
+  border-radius: 4px;
+  height: 600px;
+  width: 350px;
+}
+
+#deuxieme p {
+  line-height: 30px;
+  margin: 20px 100px 20px 100px;
+}
+
+em {
+  font-size: 1.2em;
+  text-decoration: underline;
+  color: Red;
+}
+
+#troisieme {
+  display: flex;
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: auto;
+  caption-side: bottom;
+  font-family: "Comic sans ms", serif;
+}
+
+td,
+th {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: DarkCyan;
+  text-align: center;
+  text-shadow: none;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(220, 214, 219, 0.8);
+}
+
+th {
+  background-color: rgba(187, 216, 244, 0.8);
+  color: Gray;
+  padding-bottom: 3px;
+}
+
+caption {
+  background: Lavender;
+  margin: 20px 350px 20px 350px;
+  border-radius: 3px;
+  box-shadow: -1px 1px 4px RosyBrown;
+}
+
+#quatrieme {
+  display: flex;
+}
+
+figure {
+  font-family: coiny, verdana, serif;
+  font-size: 1.5em;
+  color: Peru;
+  text-align: right;
+  margin-left: 11%;
+  margin-top: 8%;
+  height: 125px;
+  width: 30%;
+  padding: 1% 1% 0% 0%;
+  text-shadow: -2px -2px 2px black;
+}
+
+form {
+  margin-left: 19%;
+  margin-top: 3%;
+  width: 200px;
+}
+
+input,
+textarea,
+select {
+  background-color: WhiteSmoke;
+  padding: 3px;
+  border: 2px solid Teal;
+  border-radius: 5px;
+  width: 350px;
+  box-shadow: 2px 4px 2px black;
+  color: rgb(0, 64, 0);
+  font-family: Verdana, serif;
+}
+
+textarea {
+  color: rgb(177, 210, 243);
+}
+
+#pour {
+  margin-bottom: 15px;
+}
+
+#of {
+  margin-bottom: 15px;
+}
+
+#question {
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  margin: 5px 0px 60px 280px;
+  background-color: LightSteelBlue;
+  box-shadow: 2px 4px 2px black;
+  font-weight: bold;
+  color: rgb(13, 50, 87);
+}
+
+footer {
+  text-align: center;
+  color: Thistle;
+  font-family: verdana, serif;
+  font-weight: normal;
+  margin: 20px 400px 20px 400px;
+  padding-top: 3px;
+  background-color: RosyBrown;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px DarkSlateGray;
+}
+
+footer a {
+  text-decoration: none;
+  color: Thistle;
+}
+
+footer a:hover {
+  color: Linen;
+}
